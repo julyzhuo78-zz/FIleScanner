@@ -1,4 +1,4 @@
-This file scanner is programmed in C++ and it is used to count the number of single comments, block comments, to-do's and so on.
+**This file scanner is programmed in C++ and it is used to count the number of single comments, block comments, to-do's and so on.**
 
 Sample expected output:
 Total # of lines: 60
@@ -8,11 +8,12 @@ Total # of comment lines within block comments: 22
 Total # of block line comments: 2
 Total # of TODO’s: 1
 
-How to run it:
+### How to run it:
 1. Run "g++ -std=c++11 -Wall -Wextra -Werror main.cc ScanningFailure.cc ScanningFile.cc -o main" in your terminal.
 2. Run “./main” in your terminal.
 3. Enter the file you want the program to read (ie. test1, test2, test3)
-Things to note:
+
+### Things to note:
 1. The # of comment lines within block comments is calculated by counting the no of lines in between and including "/*" and "*/".
 eg. "/*
 Some code..
